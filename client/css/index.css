@@ -40,7 +40,6 @@ body {
   border-radius: 0;
   width: 748px;
   height: 544px;
-  border: 1px solid #e1e1e1;
   background: #ffffff;
   color: #555555;
   font-family: Karla;
@@ -106,7 +105,6 @@ body {
         letter-spacing: 0px; }
   .rectangle9Copy2 .survey-container-mine {
     float: right;
-    border: 1px solid green;
     margin-top: 29px;
     margin-right: 71px; }
     .rectangle9Copy2 .survey-container-mine .survey-question {
@@ -130,7 +128,6 @@ body {
     .rectangle9Copy2 .survey-container-mine .survey-answer ul {
       margin-bottom: 32px; }
       .rectangle9Copy2 .survey-container-mine .survey-answer ul li {
-        border: 2px solid pink;
         padding-left: 12px;
         padding-top: 6px;
         border-radius: 0;
@@ -181,9 +178,9 @@ body {
         .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa4 {
           margin-left: 250px;
           color: #4386F5; }
-    .rectangle9Copy2 .survey-container-mine .line-containerP {
+    .rectangle9Copy2 .survey-container-mine .line-container {
       margin-bottom: 25px; }
-      .rectangle9Copy2 .survey-container-mine .line-containerP .line4 {
+      .rectangle9Copy2 .survey-container-mine .line-container .line4 {
         border-radius: 0;
         width: 462px;
         height: 2px;
@@ -256,27 +253,14 @@ body {
           font-size: 18px; }
     .rectangle9Copy2 .survey-container-mine {
       float: right;
-      border: 1px solid green;
       margin-top: -11px;
       margin-right: 0px;
-      /* margin: -11px auto; */
-      /* margin-left: -13px; */
       width: 273px;
       height: 411px; }
       .rectangle9Copy2 .survey-container-mine .survey-question {
         width: 258px;
         height: 98px;
-        color: #555555;
-        font-family: Karla;
         font-size: 24px;
-        font-style: normal;
-        font-stretch: normal;
-        font-weight: 400;
-        line-height: 34px;
-        text-align: left;
-        text-transform: none;
-        letter-spacing: 0px;
-        padding-left: 14px;
         margin-bottom: 32px; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
@@ -284,107 +268,46 @@ body {
       .rectangle9Copy2 .survey-container-mine .survey-answer ul {
         margin-bottom: 24px; }
         .rectangle9Copy2 .survey-container-mine .survey-answer ul li {
-          border: 2px solid pink;
-          padding-left: 12px;
-          padding-top: 6px;
-          border-radius: 0;
           width: 100%;
-          height: 50px;
-          color: #555555;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          cursor: pointer; }
+          height: 50px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li:hover {
             background: rgba(67, 134, 245, 0.1); }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li a {
             width: 495px;
             height: 34px;
-            color: #555555;
-            font-family: Karla;
             font-size: 15px;
-            font-style: normal;
-            font-stretch: normal;
-            font-weight: 400;
-            line-height: 34px;
-            text-align: left;
-            text-transform: none;
-            letter-spacing: 0px;
-            text-decoration: none; }
+            font-weight: 400; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa1 {
             margin-left: 80px;
-            color: #4386F5;
             font-size: 14px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa2 {
             margin-left: 51px;
-            color: #4386F5;
             font-size: 14px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa3 {
             margin-left: 76px;
-            color: #4386F5;
             font-size: 14px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa4 {
             margin-left: 67px;
-            color: #4386F5;
             font-size: 14px; }
       .rectangle9Copy2 .survey-container-mine .line-container {
         margin-bottom: 17px; }
         .rectangle9Copy2 .survey-container-mine .line-container .line4 {
-          border-radius: 0;
+          border-radius: 6%;
           width: 270px;
           height: 2px;
           border: 5px solid #f2f2f2;
           color: #555555;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
           border: 2px solid #f2f2f2; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
         margin-top: 16px; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question {
-          width: 108px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none; }
+          font-weight: 400; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question:hover {
             font-weight: 700; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .done {
           width: 38px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none;
-          margin-left: 12px; }
+          height: 27px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .done:hover {
             font-weight: 700; } }
 
@@ -408,79 +331,32 @@ body {
           font-size: 18px; }
     .rectangle9Copy2 .survey-container-mine {
       float: right;
-      border: 1px solid green;
       margin-top: -4px;
       margin-right: 2px;
       width: 327px;
       height: 408px; }
       .rectangle9Copy2 .survey-container-mine .survey-question {
         width: 296px;
-        height: 98px;
-        color: #555555;
-        font-family: Karla;
-        font-size: 24px;
-        font-style: normal;
-        font-stretch: normal;
-        font-weight: 400;
-        line-height: 34px;
-        text-align: left;
-        text-transform: none;
-        letter-spacing: 0px;
-        padding-left: 14px;
         margin-bottom: 30px; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
         margin-top: 25px; }
       .rectangle9Copy2 .survey-container-mine .survey-answer ul {
         margin-bottom: 28px; }
-        .rectangle9Copy2 .survey-container-mine .survey-answer ul li {
-          border: 2px solid pink;
-          padding-left: 12px;
-          padding-top: 6px;
-          border-radius: 0;
-          width: 100%;
-          height: 50px;
-          color: #555555;
-          font-family: Karla;
-          font-size: 15px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          cursor: pointer; }
-          .rectangle9Copy2 .survey-container-mine .survey-answer ul li a {
-            width: 495px;
-            height: 34px;
-            color: #555555;
-            font-family: Karla;
-            font-size: 17px;
-            font-style: normal;
-            font-stretch: normal;
-            font-weight: 400;
-            line-height: 34px;
-            text-align: left;
-            text-transform: none;
-            letter-spacing: 0px;
-            text-decoration: none; }
-          .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa1 {
-            margin-left: 109px;
-            color: #4386F5;
-            font-size: 17px; }
-          .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa2 {
-            margin-left: 75px;
-            color: #4386F5;
-            font-size: 17px; }
-          .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa3 {
-            margin-left: 104px;
-            color: #4386F5;
-            font-size: 17px; }
-          .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa4 {
-            margin-left: 94px;
-            color: #4386F5;
-            font-size: 17px; }
+        .rectangle9Copy2 .survey-container-mine .survey-answer ul li a {
+          font-size: 17px; }
+        .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa1 {
+          margin-left: 109px;
+          font-size: 17px; }
+        .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa2 {
+          margin-left: 75px;
+          font-size: 17px; }
+        .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa3 {
+          margin-left: 104px;
+          font-size: 17px; }
+        .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa4 {
+          margin-left: 94px;
+          font-size: 17px; }
       .rectangle9Copy2 .survey-container-mine .line-container {
         margin-bottom: 13px; }
         .rectangle9Copy2 .survey-container-mine .line-container .line4 {
@@ -488,51 +364,17 @@ body {
           width: 323px;
           height: 2px;
           border: 5px solid #f2f2f2;
-          color: #555555;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
           border: 2px solid #f2f2f2; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
         margin-top: 16px; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question {
-          width: 108px;
-          height: 27px;
-          color: #4386F5;
           font-family: Karla;
-          font-size: 21px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none; }
+          font-size: 21px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question:hover {
             font-weight: 700; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .done {
-          width: 38px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
-          font-size: 21px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none;
-          margin-left: 12px; }
+          font-size: 21px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .done:hover {
             font-weight: 700; } }
 
@@ -545,7 +387,6 @@ body {
       width: 109.75px;
       height: 109.75px;
       margin-left: 14px;
-      /* margin-bottom: 8px; */
       margin-top: 55px; }
       .rectangle9Copy2 .group13 .oval3 {
         top: 21px;
@@ -557,8 +398,6 @@ body {
           margin-left: 21px;
           font-size: 41px; }
     .rectangle9Copy2 .survey-container-mine {
-      float: right;
-      border: 1px solid green;
       margin-top: 64px;
       margin-right: 2px;
       width: 420px;
@@ -566,17 +405,7 @@ body {
       .rectangle9Copy2 .survey-container-mine .survey-question {
         width: 417px;
         height: 98px;
-        color: #555555;
-        font-family: Karla;
         font-size: 33px;
-        font-style: normal;
-        font-stretch: normal;
-        font-weight: 400;
-        line-height: 34px;
-        text-align: left;
-        text-transform: none;
-        letter-spacing: 0px;
-        padding-left: 14px;
         margin-bottom: 52px; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
@@ -584,106 +413,48 @@ body {
       .rectangle9Copy2 .survey-container-mine .survey-answer ul {
         margin-bottom: 34px; }
         .rectangle9Copy2 .survey-container-mine .survey-answer ul li {
-          border: 2px solid pink;
-          padding-left: 12px;
           padding-top: 9px;
-          border-radius: 0;
           width: 100%;
-          height: 54px;
-          color: #555555;
-          font-family: Karla;
-          font-size: 15px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          cursor: pointer; }
+          height: 54px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li:hover {
             background: rgba(67, 134, 245, 0.1); }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li a {
-            width: 495px;
-            height: 34px;
-            color: #555555;
-            font-family: Karla;
             font-size: 20px;
             font-style: normal;
             font-stretch: normal;
             font-weight: 400;
-            line-height: 34px;
-            text-align: left;
-            text-transform: none;
-            letter-spacing: 0px;
-            text-decoration: none; }
+            line-height: 34px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa1 {
             margin-left: 161px;
-            color: #4386F5;
             font-size: 20px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa2 {
             margin-left: 121px;
-            color: #4386F5;
             font-size: 20px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa3 {
             margin-left: 154px;
-            color: #4386F5;
             font-size: 20px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa4 {
             margin-left: 143px;
-            color: #4386F5;
             font-size: 20px; }
       .rectangle9Copy2 .survey-container-mine .line-container {
         margin-bottom: 13px; }
         .rectangle9Copy2 .survey-container-mine .line-container .line4 {
-          border-radius: 0;
           width: 414px;
           height: 2px;
           border: 5px solid #f2f2f2;
           color: #555555;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
           border: 2px solid #f2f2f2; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
         margin-top: 16px; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question {
-          width: 108px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
-          font-size: 24px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none; }
+          font-size: 24px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question:hover {
             font-weight: 700; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .done {
-          width: 38px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
           font-size: 24px;
-          font-style: normal;
           font-stretch: normal;
           font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none;
           margin-left: 12px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .done:hover {
             font-weight: 700; } }
@@ -709,133 +480,44 @@ body {
           margin-left: 27px;
           font-size: 53px; }
     .rectangle9Copy2 .survey-container-mine {
-      float: right;
-      border: 1px solid green;
-      margin-top: 64px;
-      margin-right: 2px;
-      width: 498px;
-      height: 477px; }
-      .rectangle9Copy2 .survey-container-mine .survey-question {
-        width: 417px;
-        height: 98px;
-        color: #555555;
-        font-family: Karla;
-        font-size: 33px;
-        font-style: normal;
-        font-stretch: normal;
-        font-weight: 400;
-        line-height: 34px;
-        text-align: left;
-        text-transform: none;
-        letter-spacing: 0px;
-        padding-left: 14px;
-        margin-bottom: 52px; }
+      width: 498px; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
         margin-top: 25px; }
       .rectangle9Copy2 .survey-container-mine .survey-answer ul {
         margin-bottom: 34px; }
         .rectangle9Copy2 .survey-container-mine .survey-answer ul li {
-          border: 2px solid pink;
-          padding-left: 12px;
-          padding-top: 9px;
-          border-radius: 0;
-          width: 100%;
-          height: 58px;
-          color: #555555;
-          font-family: Karla;
-          font-size: 15px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          cursor: pointer; }
+          height: 58px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li:hover {
             background: rgba(67, 134, 245, 0.2); }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li a {
-            width: 495px;
-            height: 34px;
-            color: #555555;
-            font-family: Karla;
-            font-size: 23px;
-            font-style: normal;
-            font-stretch: normal;
-            font-weight: 400;
-            line-height: 34px;
-            text-align: left;
-            text-transform: none;
-            letter-spacing: 0px;
-            text-decoration: none; }
+            font-size: 23px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa1 {
             margin-left: 216px;
-            color: #4386F5;
             font-size: 20px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa2 {
             margin-left: 171px;
-            color: #4386F5;
             font-size: 20px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa3 {
             margin-left: 210px;
-            color: #4386F5;
             font-size: 20px; }
           .rectangle9Copy2 .survey-container-mine .survey-answer ul li .fa4 {
             margin-left: 197px;
-            color: #4386F5;
             font-size: 20px; }
       .rectangle9Copy2 .survey-container-mine .line-container {
         margin-bottom: 13px; }
         .rectangle9Copy2 .survey-container-mine .line-container .line4 {
-          border-radius: 0;
+          border-radius: 10%;
           width: 496px;
-          height: 2px;
-          border: 5px solid #f2f2f2;
-          color: #555555;
-          font-family: Karla;
-          font-size: 16px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
           border: 2px solid #f2f2f2; }
       .rectangle9Copy2 .survey-container-mine .survey-buttons {
         margin-left: 14px;
         margin-top: 16px; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question {
-          width: 108px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
-          font-size: 25px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none; }
+          font-size: 25px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .next-question:hover {
             font-weight: 700; }
         .rectangle9Copy2 .survey-container-mine .survey-buttons .done {
-          width: 38px;
-          height: 27px;
-          color: #4386F5;
-          font-family: Karla;
-          font-size: 25px;
-          font-style: normal;
-          font-stretch: normal;
-          font-weight: 400;
-          line-height: 34px;
-          text-align: left;
-          text-transform: none;
-          letter-spacing: 0px;
-          text-decoration: none;
-          margin-left: 12px; }
+          font-size: 25px; }
           .rectangle9Copy2 .survey-container-mine .survey-buttons .done:hover {
             font-weight: 700; } }
